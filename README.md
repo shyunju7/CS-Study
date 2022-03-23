@@ -3,5 +3,5 @@
 > [Database](https://github.com/shyunju7/CS-Study/tree/main/Database) <br/>
 > [OS(Operation System)](https://github.com/shyunju7/CS-Study/tree/main/OS)<br/>
 > [Network](https://github.com/shyunju7/CS-Study/tree/main/Network)<br/>
-> Algorithm<br/>
-> Data Structure<br/>
+> [Algorithm](https://github.com/shyunju7/CS-Study/tree/main/Algorithm)<br/>
+> [Data Structure](https://github.com/shyunju7/CS-Study/tree/main/DataStructure)<br/>

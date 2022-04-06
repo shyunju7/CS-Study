@@ -78,11 +78,16 @@ Access-Control-Allow-Origin: <origin>
 
 → webpack.config 파일에서 proxy 설정
 
-```jsx
-* webpack-dev-server는 코드가 변경되면 빌드하여 결과를 확인할 수 있는 개발용 서버 제공
-빠른 속도로 변경된 코드를 개발 서버에 반영해서 보여줌(파일 생성 x, 메모리 로드)
+``` js
+devServer: {
+    proxy: {
+      "/api“: {
+        target: “http://localhost:8080”,
+        changeOrigin: true,
+      },
+    },
+  },
 ```
-
 <br/>
 
 **3) package.json에 `proxy` 설정하기 🔥**

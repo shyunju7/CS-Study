@@ -14,3 +14,8 @@ public class Main {
         chinaAdapter.greet();
     }
 }
+
+/** 출력
+ * Hello!
+ * Ni Hao!
+ * **/
